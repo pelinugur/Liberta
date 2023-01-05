@@ -1,0 +1,191 @@
+@import "~bootstrap/scss/bootstrap";
+p {
+  margin-bottom: 0px !important;
+}
+.logo {
+  width: 100%;
+}
+img {
+  width: 18%;
+}
+
+.chat-section {
+  height: 100vh;
+}
+.video-meeting-page-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 90%;
+    height: 85vh;
+    object-fit: contain;
+  }
+}
+.footeer-section {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1c6ca4;
+  color: white;
+  font-size: 13px;
+  height: 35px;
+  text-align: center;
+}
+
+.ChatNavSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #324d7f;
+  font-weight: 600;
+  background-color: #ebebeb;
+  border-radius: 14px;
+  .ChatNavTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+  }
+  .ChatNavTitleIcon {
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border-left: 1.5px solid #324d7f;
+  }
+}
+.ChatsSection {
+  background-color: #ebebeb;
+  height: 62vh;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 14px 14px 0 0;
+  .walter-white {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+  }
+}
+.ChatSerchInput {
+  width: 80%;
+  height: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #324d7f;
+  padding: 3px;
+  border-radius: 25px;
+  input {
+    width: 100%;
+    border: none;
+    background-color: #ebebeb;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  :focus {
+    outline: none;
+  }
+}
+.ChatTypeingSection {
+  padding: 15px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  background-color: #ebebeb;
+  border: 1px solid transparent;
+  .typing {
+    background-color: #ffff;
+    width: 100%;
+    padding: 7px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    border: none;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #324d7f;
+    width: 100%;
+  }
+  :focus {
+    outline: none;
+  }
+}
+// swiper slide scss
+.walter-white {
+  overflow-y: scroll;
+  height: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+  align-items: center !important;
+  border-left: 1px solid #324d7f;
+}
+.swiper-slide {
+  height: 100% !important;
+  overflow-y: scroll;
+  scroll-snap-type: none !important;
+  margin-left: 10px;
+
+  img {
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+}
+.pagesLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+h5 {
+  color: #324d7f;
+  font-size: 15px;
+  font-weight: 600;
+}
+button {
+  width: 20%;
+  border: 1px solid #b4c7eb;
+  border-radius: 25px;
+  background-color: #324d7f;
+  color: #b4c7eb;
+  height: 6%;
+  margin-top: 30px;
+}
+button:hover {
+  background-color: #283a5c;
+  color: #b4c7eb;
+  transition: ease-in-out 0.2s;
+  border: 1px solid #16243f;
+}
+.UserInputSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  flex-direction: column;
+}
+input {
+  margin: 10px;
+  width: 100% !important;
+  padding: 6px;
+  border: 1px solid #b4c7eb;
+  font-size: 12px;
+  border-radius: 15px;
+}
+:focus {
+  outline: none;
+}
